@@ -1,0 +1,148 @@
+#root {
+    position: relative;
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+
+.clocks {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+
+    margin-top: 10px;
+    width: 60%;
+    left: 50%;
+    transform: translate(-50%, 0)
+}
+
+.clock {
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #9AD0FC;
+
+    margin-left: 10px;
+    height: 3em;
+    width: 8em;
+
+    border: solid 0.1em #79B6E8;
+    border-radius: 5px;
+
+
+}
+
+
+.close {
+    position: absolute;
+    right: -5px;
+    top: 0;
+    width: 20px;
+    height: 20px;
+}
+
+
+
+/*.clock {*/
+/*    margin-right: 1em;*/
+
+/*    border-radius: 50%;*/
+/*    background-color: lightgrey;*/
+/*    background-size: 88%;*/
+/*    height: 5em;*/
+/*    width: 5em;*/
+
+/*    position: relative;*/
+/*}*/
+
+/*.clock:after {*/
+/*    content: "";*/
+
+/*    background: white;*/
+/*    border-radius: 50%;*/
+
+/*    position: absolute;*/
+/*    left: 50%;*/
+/*    top: 50%;*/
+/*    transform: translate(-50%, -50%);*/
+/*    width: 5%;*/
+/*    height: 5%;*/
+/*    z-index: 10;*/
+/*}*/
+
+/*.minutes-container, .hours-container, .seconds-container {*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    right: 0;*/
+/*    bottom: 0;*/
+/*    left: 0;*/
+/*}*/
+
+/*.hours {*/
+/*    background: #000;*/
+/*    height: 20%;*/
+/*    width: 2.5%;*/
+
+/*    left: 48.75%;*/
+/*    top: 30%;*/
+
+/*    position: absolute;*/
+/*    transform-origin: 50% 100%;*/
+/*}*/
+
+/*.minutes {*/
+/*    background: #000;*/
+/*    height: 40%;*/
+/*    width: 2%;*/
+
+/*    left: 49%;*/
+/*    top: 10%;*/
+
+/*    position: absolute;*/
+/*    transform-origin: 50% 100%;*/
+/*}*/
+
+/*.seconds {*/
+/*    background: #000;*/
+/*    height: 45%;*/
+/*    width: 1%;*/
+
+/*    left: 49.5%;*/
+/*    top: 14%;*/
+
+/*    position: absolute;*/
+/*    transform-origin: 50% 80%;*/
+/*    z-index: 8;*/
+/*}*/
+
+/*.hours-container {*/
+/*    animation: rotate 43200s infinite linear;*/
+/*}*/
+
+/*.minutes-container {*/
+/*    animation: rotate 3600s infinite linear;*/
+/*}*/
+
+/*.seconds-container {*/
+/*    animation: rotate 60s infinite linear;*/
+/*}*/
+
+/*@keyframes rotate {*/
+/*    50% {*/
+/*        transform: rotateZ(360deg);*/
+/*    }*/
+/*}*/
