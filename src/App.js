@@ -1,7 +1,7 @@
 import {useState} from "react";
 import './App.css';
-import Header from "./header";
-import Clock from "./clock";
+import Header from "./components/header";
+import Clock from "./components/clock";
 
 function App() {
 
